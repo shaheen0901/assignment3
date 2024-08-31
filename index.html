@@ -89,7 +89,7 @@
                             </svg>
                         </div>
                         <div class="gap-1">
-                            <a class="btn bg-lime-300 rounded-3xl font-bold">Book Consult <div
+                            <a class="btn bg-lime-300 rounded-3xl font-bold w-40">Book Consult <div
                                     class="w-5 h-5 rounded-full text-white  bg-black items-center text-center"><i
                                         class="fa-solid fa-arrow-right text-base -rotate-45"></i></div></a>
                         </div>
@@ -135,10 +135,10 @@
     <!-- Main body -->
     <main>
         <!-- Design Section -->
-        <section class="bg-slate-100 mt-24 px-5 gap-y-6 text-center md:pt-5 px-8 ">
+        <section class="bg-slate-100 mt-24 gap-y-6 text-center md:pt-5 px-8 ">
             <img class="hidden lg:block" src="./assets/Vector.png" alt="">
-            <div class="px-5 lg:flex gap-9 px-32">
-                <div>
+            <div class="  lg:grid grid-cols-2 gap-9 px-auto">
+                <div class=" text-center lg:text-left">
                     <div class="gap-1 mt-8">
                         <a class="btn bg-white rounded-3xl font-bold">
                             <div class="w-5 h-5 rounded-full text-black items-center text-center"><i
@@ -149,7 +149,7 @@
                     <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                         weathered
                         wood, sleek metal accents.</p>
-                    <div class="md:grid grid-cols-2 gap-6">
+                    <div class="md:grid grid-cols-2 gap-6 lg:grid-cols-1 gap-y-0">
                         <div class=" bg-white rounded-2xl p-5 my-4 flex gap-5 ">
                             <img class="h-fit" src="./assets/commercial.png" alt="">
                             <div class="text-left">
@@ -168,14 +168,14 @@
                 </div>
 
                 <div>
-                    <img class="h-full md:w-full lg: w-auto py-4" src="./assets/Rectangle.png" alt="">
+                    <img class="h-full md:w-full lg: w-full mt-8 pb-11" src="./assets/Rectangle.png" alt="">
                 </div>
             </div>
         </section>
 
         <!-- Count Section -->
         <section class="bg-slate-100 p-6">
-            <div class="bg-white rounded-2xl text-center md:grid grid-cols-2 px-8 lg:grid-cols-4  px-32">
+            <div class="bg-white rounded-2xl text-center md:grid grid-cols-2 lg:grid-cols-4  px-32">
                 <div class="p-5">
                     <i class="fa-regular fa-message text-3xl"></i>
                     <h2 class="text-3xl font-extrabold my-3">235+</h2>
@@ -246,38 +246,43 @@
                 </a>
             </div>
             <h2 class="text-3xl font-extrabold my-4">Our Latest Portfolio</h2>
-            <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-            <div class="lg:grid grid-cols-2">
-                <div class="rounded-2xl my-2 p-6 text-left lg:w-auto md:flex gap-4">
-                    <img class="w-full" src="./assets/img1.png" alt="">
+            <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
+                wood, sleek metal accents.</p>
+            <div class="lg:grid grid-cols-4">
+                <div class="rounded-2xl my-2 p-6 text-left lg:w-auto md:flex gap-4 lg:col-span-3">
+                    <img class="w-full lg:w-auto" src="./assets/img1.png" alt="">
                     <div>
-                        <h2 class="text-lg font-extrabold my-4">Commercial</h2>
+                        <h2 class="text-2xl font-extrabold my-4">Commercial</h2>
                         <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        <a class="btn rounded-3xl text-xl font-bold mt-4">View Details<div
+                        <a class="btn rounded-3xl text-lg font-bold mt-4">View Details<div
                                 class="w-5 h-5 rounded-full text-black  bg-lime-300 items-center text-center"><i
                                     class="fa-solid fa-arrow-right text-base -rotate-45"></i></div></a>
                     </div>
                 </div>
                 <div class="md:flex gap-6 p-3">
-                    <img class="py-2 w-full md: h-auto" src="./assets/img2.png" alt="">
-                    <img class="py-2 md: w-full h-auto " src="./assets/img5.png" alt="">
+                    <img class="py-2 w-full md: h-auto lg:w-auto" src="./assets/img2.png" alt="">
+                    <img class="py-2 md: w-full h-auto lg:hidden " src="./assets/img5.png" alt="">
                 </div>
-                <div class="md:flex p-3">
-                    <img class="w-full" src="./assets/img4.png" alt="">
-                    <div class="w-full rounded-2xl my-2 p-6 text-left lg:w-auto">
-                        <h2 class="text-lg font-extrabold my-4">Commercial</h2>
+                <!-- Extra Image -->
+                <img class="hidden lg:block p-4 h-auto" src="./assets/img3.png" alt="">
+
+                <!-- Second line  -->
+                <div class="md:flex p-3 lg:col-span-2">
+                    <img class="w-full lg:h-44" src="./assets/img4.png" alt="">
+                    <div class="w-full rounded-2xl my-2 p-6 text-left lg:my-0 py-0">
+                        <h2 class="text-2xl font-extrabold my-4 lg:mt-0">Commercial</h2>
                         <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        <a class="btn rounded-3xl text-xl font-bold mt-4">View Details<div
+                        <a class="btn rounded-3xl text-lg font-bold mt-4 lg:mt-2">View Details<div
                                 class="w-5 h-5 rounded-full text-black  bg-lime-300 items-center text-center"><i
                                     class="fa-solid fa-arrow-right text-base -rotate-45"></i></div></a>
                     </div>
                 </div>
                 <div class="my-2 md:flex gap-6 p-3">
-                    <img class="py-2 w-full md:h-auto" src="./assets/img3.png" alt="">
-                    <img class="py-2 md: w-full h-auto" src="./assets/img5.png" alt="">
+                    <img class="py-2 w-full md:h-auto lg:hidden" src="./assets/img3.png" alt="">
+                    <img class="py-2 md: w-full h-auto lg:h-44" src="./assets/img5.png" alt="">
                 </div>
-                
-              </div>
+
+            </div>
         </section>
         <!--  Article and News -->
         <section class="bg-slate-100 text-center gap-4">
@@ -292,24 +297,24 @@
             <h2 class="text-3xl font-extrabold my-4">Read Our Article and News</h2>
             <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                 weathered wood, sleek metal accents.</p>
-            <div class= "lg:flex justify-between gap-4 p-4">
+            <div class="lg:flex justify-between gap-4 p-4">
                 <div class="bg-white rounded-2xl my-2 p-6 text-left lg:w-auto md:flex gap-4 lg:inline">
                     <img class="w-full" src="./assets/article1.png" alt="">
                     <div>
                         <div class="flex flex-1 gap-6 font-semibold text-base mt-4">
                             <div class="flex gap-3 items-center">
-                                <i class="fa-regular fa-calendar text-xl"></i>
-                                <p class="text-xl"> July14, 2024</p>
+                                <i class="fa-regular fa-calendar text-lg"></i>
+                                <p class="text-lg"> July14, 2024</p>
                             </div>
                             <div class="flex gap-3 items-center">
-                                <i class="fa-regular fa-face-smile text-xl"></i>
-                                <p class="text-xl"> By Admin</p>
+                                <i class="fa-regular fa-face-smile text-lg"></i>
+                                <p class="text-lg"> By Admin</p>
                             </div>
                         </div>
                         <h2 class="text-2xl font-extrabold my-2">How to choose the furniture right of your home.
                         </h2>
                         <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        <a class="btn rounded-3xl text-xl font-bold">Read More<div
+                        <a class="btn rounded-3xl text-lg font-bold">Read More<div
                                 class="w-5 h-5 rounded-full text-black  bg-lime-300 items-center text-center"><i
                                     class="fa-solid fa-arrow-right text-base -rotate-45"></i></div></a>
                     </div>
@@ -321,18 +326,18 @@
                     <div>
                         <div class="flex flex-1 gap-6 font-semibold text-base mt-4">
                             <div class="flex gap-3 items-center">
-                                <i class="fa-regular fa-calendar text-xl"></i>
-                                <p class="text-xl"> July14, 2024</p>
+                                <i class="fa-regular fa-calendar text-lg"></i>
+                                <p class="text-lg"> July14, 2024</p>
                             </div>
                             <div class="flex gap-3 items-center">
-                                <i class="fa-regular fa-face-smile text-xl"></i>
-                                <p class="text-xl"> By Admin</p>
+                                <i class="fa-regular fa-face-smile text-lg"></i>
+                                <p class="text-lg"> By Admin</p>
                             </div>
                         </div>
                         <h2 class="text-2xl font-extrabold my-2">How to choose the furniture right of your home.
                         </h2>
                         <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        <a class="btn rounded-3xl text-xl font-bold">Read More<div
+                        <a class="btn rounded-3xl text-lg font-bold">Read More<div
                                 class="w-5 h-5 rounded-full text-black  bg-lime-300 items-center text-center"><i
                                     class="fa-solid fa-arrow-right text-base -rotate-45"></i></div></a>
                     </div>
@@ -344,29 +349,29 @@
                     <div>
                         <div class="flex flex-1 gap-6 font-semibold text-base mt-4">
                             <div class="flex gap-3 items-center">
-                                <i class="fa-regular fa-calendar text-xl"></i>
-                                <p class="text-xl">July14, 2024</p>
+                                <i class="fa-regular fa-calendar text-lg"></i>
+                                <p class="text-lg">July14, 2024</p>
                             </div>
                             <div class="flex gap-3 items-center">
-                                <i class="fa-regular fa-face-smile text-xl"></i>
-                                <p class="text-xl"> By Admin</p>
+                                <i class="fa-regular fa-face-smile text-lg"></i>
+                                <p class="text-lg"> By Admin</p>
                             </div>
                         </div>
                         <h2 class="text-2xl font-extrabold my-2">How to choose the furniture right of your home.
                         </h2>
                         <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        <a class="btn rounded-3xl text-xl font-bold my-4">Read More<div
+                        <a class="btn rounded-3xl text-lg font-bold my-4">Read More<div
                                 class="w-5 h-5 rounded-full text-black  bg-lime-300 items-center text-center"><i
                                     class="fa-solid fa-arrow-right text-base -rotate-45"></i></div></a>
                     </div>
 
                 </div>
             </div>
-          </section>
+        </section>
 
         <!-- form Section -->
         <section class="bg-[url('./assets/bg.jpg')]">
-            <div class="text-center py-8 px-6">
+            <div class="text-center py-8 px-6 lg:px-24">
                 <div class="gap-1 mt-8">
                     <a class="btn bg-light-green rounded-3xl font-bold text-xl">
                         <div class="w-5 h-5 rounded-full text-black items-center text-center"><i
@@ -403,7 +408,7 @@
 
     <!-- Footer  -->
     <footer class="bg-black text-center -mt-1">
-        <div class="my-2 py-16 px-8">
+        <div class="my-2 py-16 px-8 lg:px-28">
             <div class="text-center">
                 <div class="flex justify-center items-center px-1 gap-1">
                     <div class=" bg-button-dark rounded-full  w-6 h-6 items-center text-center">
